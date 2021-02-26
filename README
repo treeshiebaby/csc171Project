@@ -1,0 +1,24 @@
+***README*** for Project 1
+Melvin Mai
+mmai2@u.rochester.edu
+
+ The while loop condition checks if the user has input 'q'.
+
+ The first for loop reads through the string and checks for the
+ initial redaction indicator <r>.
+
+ If the indicator is found, the next loop will start after the '>'.
+
+ Anything that is a letter or digit will be replaced by '*' with the
+ substring method.
+
+ If its not letter, if will not be replaced by a '*'. It will also
+ if there is the second indicator </r> since '<' is not a letter or
+ digit.
+
+ Once the entire string is checked, the last conditional if statement
+ will remove the redaction indicators and print the final result. It
+ also prevents printing when the user enters 'q'.
+
+ There are no known bugs. Anything that is entered should work, including
+ a blank line. 
